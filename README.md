@@ -6,6 +6,7 @@
 
 ```
 $ cd backend
+$ mkdir DB
 $ pip3 install -r requirements.txt
 ...
 ```
