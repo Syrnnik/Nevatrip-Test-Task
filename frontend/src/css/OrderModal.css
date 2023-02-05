@@ -1,0 +1,92 @@
+.order-modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+    padding: 5% 0;
+    box-sizing: border-box;
+}
+
+.close-btn {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.count-block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding: 0 4%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-param {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.param-label {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.param-input {
+    background: none;
+    width: fit-content;
+    padding: 16px 20px;
+    border-radius: 15px;
+    border: 2px solid #ffd83c;
+    outline: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+.count-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.count-price button {
+    background-color: #ffd83c;
+    margin-top: 50px;
+    padding: 0 40px;
+    border: none;
+    border-radius: 23px;
+    font-size: 27px;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.count-info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding: 1% 4%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+#time-from-block {
+    display: none;
+}
