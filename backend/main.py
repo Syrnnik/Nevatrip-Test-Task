@@ -33,5 +33,4 @@ app.include_router(orders_router)
 Base.metadata.create_all(bind=engine)
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host='localhost',
-                debug=True, reload=True, workers=1)
+    uvicorn.run("main:app", host='localhost', reload=True)
